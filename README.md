@@ -13,9 +13,9 @@
 > To add client records to the API run http://localhost/api/post/insert.php with the POST method and a JSON body structured with following parameters: idNumber, name, surname, emailAddress, contactPrimary, contactSecondary (optional), gender, organisation, dead (optional). ##
 
 ## There are quite a few areas that need improvements and upgrades:
-> the Parsing of data needs to be more secure and needs to double-check the format of the data.
-> For extra security tokens and authorization as well as IP whitelisting could be added.
-> More detailed error messages could be added.
-> Response time and recording of time is not added.
-> Docker could be used for ease of use.
-> In real world use the Database will have a password and many more security features that is not active in this test API.
+* the Parsing of data needs to be more secure and needs to double-check the format of the data.
+* For extra security tokens and authorization as well as IP whitelisting could be added.
+* More detailed error messages could be added.
+* Response time and recording of time is not added.
+* Docker could be used for ease of use.
+* In real world use the Database will have a password and many more security features that is not active in this test API.
