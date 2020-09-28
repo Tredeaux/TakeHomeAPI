@@ -19,3 +19,4 @@
 * Response time and recording of time is not added.
 * Docker could be used for ease of use.
 * In real world use the Database will have a password and many more security features that is not active in this test API.
+* And a much better, stronger database structure and setup
